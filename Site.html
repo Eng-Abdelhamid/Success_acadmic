@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الموقع الأكاديمي</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">الموقع الأكاديمي</div>
+        <nav>
+            <ul>
+                <li><a href="#home">الصفحة الرئيسية</a></li>
+                <li><a href="#services">الخدمات</a></li>
+                <li><a href="#courses">الدورات</a></li>
+                <li><a href="#consultation">الاستشارات</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <input type="text" placeholder="بحث..." id="search-bar">
+            <button onclick="search()">بحث</button>
+            <a href="#signup" class="btn">تسجيل</a>
+            <a href="#login" class="btn">تسجيل الدخول</a>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="banner-content">
+            <h1>مرحباً بكم في الموقع الأكاديمي</h1>
+            <p>نساعدكم في النجاح الأكاديمي من خلال خدماتنا المتنوعة</p>
+            <button onclick="window.location.href='#signup'">ابدأ الآن</button>
+            <button onclick="window.location.href='#services'">تعرف على المزيد</button>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>خدماتنا</h2>
+        <div class="service">
+            <h3>شرح المواد الدراسية</h3>
+            <p>جلسات مباشرة ومسجلة لتوضيح المواضيع الصعبة.</p>
+        </div>
+        <div class="service">
+            <h3>حل الواجبات والمشاريع</h3>
+            <p>مساعدة في حل الواجبات والمشاريع الدراسية بجودة عالية.</p>
+        </div>
+        <div class="service">
+            <h3>استشارات تعليمية</h3>
+            <p>استشارات مخصصة تساعدك على التخطيط لمسارك الأكاديمي.</p>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h2>الدورات الأكثر شعبية</h2>
+        <div class="course">
+            <h3>دورة الهندسة الميكانيكية</h3>
+            <p>تعلم أساسيات الهندسة الميكانيكية مع خبراء.</p>
+        </div>
+        <div class="course">
+            <h3>دورة البرمجة بلغة C++</h3>
+            <p>إتقان البرمجة من الصفر حتى الاحتراف.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <ul>
+                <li><a href="#contact">اتصل بنا</a></li>
+                <li><a href="#privacy">سياسة الخصوصية</a></li>
+                <li><a href="#faq">الأسئلة الشائعة</a></li>
+            </ul>
+            <div class="social-media">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+            <p>© 2024 الموقع الأكاديمي. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
