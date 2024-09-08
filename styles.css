@@ -140,3 +140,51 @@ footer .social-media a {
 footer p {
     margin-top: 20px;
 }
+
+ body {
+        background-color: #f0f0f0;
+        color: #333;
+        font-family: Arial, sans-serif;
+    }
+
+    .login-container {
+        background-color: #ffffff;
+        padding: 20px;
+        margin: 50px auto;
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+    a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .contact-info {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    img {
+        display: inline-block;
+        margin-top: 10px;
+    }
